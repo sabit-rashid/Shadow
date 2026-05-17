@@ -1,0 +1,11 @@
+Basic scan er ligga 
+python scanner.py example.com
+
+Scan with custom threads and URL limit
+python scanner.py https://example.com --threads 20 --max-urls 200
+
+Scan specific ports
+python scanner.py 192.168.1.1 --ports 80,443,8080,8443
+
+Skip certain scans
+python scanner.py example.com --skip-n
